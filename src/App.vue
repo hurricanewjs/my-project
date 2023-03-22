@@ -1,17 +1,24 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
+    <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
+    <!-- <testInput></testInput> -->
+    <!-- <testI18n></testI18n> -->
+    <!-- <v-camara></v-camara> -->
+    <router-view></router-view>
+    <!-- <testMixins></testMixins> -->
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    // HelloWorld,
+    // testI18n,
+    // vCamara
+    // testMixins
   }
 }
 </script>
